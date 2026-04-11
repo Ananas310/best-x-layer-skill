@@ -1,0 +1,68 @@
+{
+  "tokenId": "1",
+  "path": "mock",
+  "events": {
+    "feedback": [
+      { "client": "0x1111111111111111111111111111111111111111", "blockTimestamp": 1762603200, "score": 100, "scoreDecimals": 0, "feedbackIndex": 0, "tag1Hash": "0x0000000000000000000000000000000000000000000000000000000000000001" },
+      { "client": "0x2222222222222222222222222222222222222222", "blockTimestamp": 1763208000, "score": 100, "scoreDecimals": 0, "feedbackIndex": 0, "tag1Hash": "0x0000000000000000000000000000000000000000000000000000000000000001" },
+      { "client": "0x3333333333333333333333333333333333333333", "blockTimestamp": 1763812800, "score": 100, "scoreDecimals": 0, "feedbackIndex": 0, "tag1Hash": "0x0000000000000000000000000000000000000000000000000000000000000001" },
+      { "client": "0x4444444444444444444444444444444444444444", "blockTimestamp": 1764417600, "score": 95, "scoreDecimals": 0, "feedbackIndex": 0, "tag1Hash": "0x0000000000000000000000000000000000000000000000000000000000000001" },
+      { "client": "0x5555555555555555555555555555555555555555", "blockTimestamp": 1765022400, "score": 95, "scoreDecimals": 0, "feedbackIndex": 0, "tag1Hash": "0x0000000000000000000000000000000000000000000000000000000000000001" },
+      { "client": "0x6666666666666666666666666666666666666666", "blockTimestamp": 1765627200, "score": 95, "scoreDecimals": 0, "feedbackIndex": 0, "tag1Hash": "0x0000000000000000000000000000000000000000000000000000000000000001" },
+      { "client": "0x7777777777777777777777777777777777777777", "blockTimestamp": 1766232000, "score": 90, "scoreDecimals": 0, "feedbackIndex": 0, "tag1Hash": "0x0000000000000000000000000000000000000000000000000000000000000001" },
+      { "client": "0x8888888888888888888888888888888888888888", "blockTimestamp": 1766836800, "score": 90, "scoreDecimals": 0, "feedbackIndex": 0, "tag1Hash": "0x0000000000000000000000000000000000000000000000000000000000000001" },
+      { "client": "0x9999999999999999999999999999999999999999", "blockTimestamp": 1767441600, "score": 90, "scoreDecimals": 0, "feedbackIndex": 0, "tag1Hash": "0x0000000000000000000000000000000000000000000000000000000000000001" },
+      { "client": "0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa", "blockTimestamp": 1768046400, "score": 90, "scoreDecimals": 0, "feedbackIndex": 0, "tag1Hash": "0x0000000000000000000000000000000000000000000000000000000000000001" },
+      { "client": "0xbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb", "blockTimestamp": 1768651200, "score": 90, "scoreDecimals": 0, "feedbackIndex": 0, "tag1Hash": "0x0000000000000000000000000000000000000000000000000000000000000001" },
+      { "client": "0xcccccccccccccccccccccccccccccccccccccccc", "blockTimestamp": 1769256000, "score": 92, "scoreDecimals": 0, "feedbackIndex": 0, "tag1Hash": "0x0000000000000000000000000000000000000000000000000000000000000001" },
+      { "client": "0xdddddddddddddddddddddddddddddddddddddddd", "blockTimestamp": 1769860800, "score": 92, "scoreDecimals": 0, "feedbackIndex": 0, "tag1Hash": "0x0000000000000000000000000000000000000000000000000000000000000001" },
+      { "client": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee", "blockTimestamp": 1770465600, "score": 92, "scoreDecimals": 0, "feedbackIndex": 0, "tag1Hash": "0x0000000000000000000000000000000000000000000000000000000000000001" },
+      { "client": "0xffffffffffffffffffffffffffffffffffffffff", "blockTimestamp": 1771070400, "score": 92, "scoreDecimals": 0, "feedbackIndex": 0, "tag1Hash": "0x0000000000000000000000000000000000000000000000000000000000000001" },
+      { "client": "0x1111111111111111111111111111111111111111", "blockTimestamp": 1771675200, "score": 88, "scoreDecimals": 0, "feedbackIndex": 1, "tag1Hash": "0x0000000000000000000000000000000000000000000000000000000000000001" },
+      { "client": "0x2222222222222222222222222222222222222222", "blockTimestamp": 1772280000, "score": 88, "scoreDecimals": 0, "feedbackIndex": 1, "tag1Hash": "0x0000000000000000000000000000000000000000000000000000000000000001" },
+      { "client": "0x3333333333333333333333333333333333333333", "blockTimestamp": 1772884800, "score": 88, "scoreDecimals": 0, "feedbackIndex": 1, "tag1Hash": "0x0000000000000000000000000000000000000000000000000000000000000001" },
+      { "client": "0x4444444444444444444444444444444444444444", "blockTimestamp": 1773489600, "score": 85, "scoreDecimals": 0, "feedbackIndex": 1, "tag1Hash": "0x0000000000000000000000000000000000000000000000000000000000000001" },
+      { "client": "0x5555555555555555555555555555555555555555", "blockTimestamp": 1774094400, "score": 85, "scoreDecimals": 0, "feedbackIndex": 1, "tag1Hash": "0x0000000000000000000000000000000000000000000000000000000000000001" },
+      { "client": "0x6666666666666666666666666666666666666666", "blockTimestamp": 1774699200, "score": 92, "scoreDecimals": 0, "feedbackIndex": 1, "tag1Hash": "0x0000000000000000000000000000000000000000000000000000000000000001" },
+      { "client": "0x7777777777777777777777777777777777777777", "blockTimestamp": 1775304000, "score": 92, "scoreDecimals": 0, "feedbackIndex": 1, "tag1Hash": "0x0000000000000000000000000000000000000000000000000000000000000001" },
+      { "client": "0x8888888888888888888888888888888888888888", "blockTimestamp": 1775995200, "score": 92, "scoreDecimals": 0, "feedbackIndex": 1, "tag1Hash": "0x0000000000000000000000000000000000000000000000000000000000000001" }
+    ],
+    "registered": [
+      { "owner": "0xabcdef0123456789abcdef0123456789abcdef01", "agentURI": "ipfs://QmHighRep/card.json", "blockTimestamp": 1762603200 }
+    ],
+    "uriUpdated": []
+  },
+  "rpc": {
+    "summary": { "count": "23", "summaryValue": "92", "decimals": 0 },
+    "clients": [
+      "0x1111111111111111111111111111111111111111",
+      "0x2222222222222222222222222222222222222222",
+      "0x3333333333333333333333333333333333333333",
+      "0x4444444444444444444444444444444444444444",
+      "0x5555555555555555555555555555555555555555",
+      "0x6666666666666666666666666666666666666666",
+      "0x7777777777777777777777777777777777777777",
+      "0x8888888888888888888888888888888888888888",
+      "0x9999999999999999999999999999999999999999",
+      "0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "0xbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+      "0xcccccccccccccccccccccccccccccccccccccccc",
+      "0xdddddddddddddddddddddddddddddddddddddddd",
+      "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+      "0xffffffffffffffffffffffffffffffffffffffff"
+    ],
+    "tokenURI": "ipfs://QmHighRep/card.json",
+    "owner": "0xabcdef0123456789abcdef0123456789abcdef01",
+    "agentWallet": "0xabcdef0123456789abcdef0123456789abcdef01",
+    "card": {
+      "name": "PathfinderBot",
+      "description": "A high-reputation routing agent.",
+      "services": [
+        { "name": "A2A", "endpoint": "https://pathfinder.example/a2a", "version": "0.3.0" }
+      ],
+      "supportedTrust": ["reputation", "validation"]
+    }
+  },
+  "indexerError": null,
+  "rpcError": null
+}

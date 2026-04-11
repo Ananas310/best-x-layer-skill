@@ -1,6 +1,32 @@
 {
   "name": "8004-reputation-skill",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "private": true,
-  "description": "Concept-only placeholder for OKX Build X Skill Arena submission"
+  "type": "module",
+  "description": "Reusable agent skill: query ERC-8004 reputation on X Layer via OKX OnChain OS",
+  "main": "src/index.js",
+  "bin": {
+    "rep8004": "src/cli.js"
+  },
+  "engines": {
+    "node": ">=20.10.0"
+  },
+  "scripts": {
+    "test": "node --test tests/",
+    "test:bun": "bun test tests/",
+    "smoke": "node scripts/smoke.mjs",
+    "smoke:bun": "bun scripts/smoke.mjs",
+    "smoke:live": "node scripts/smoke.mjs --live",
+    "smoke:live:bun": "bun scripts/smoke.mjs --live",
+    "smoke:live:strict": "node scripts/smoke.mjs --live --strict-live",
+    "smoke:live:strict:bun": "bun scripts/smoke.mjs --live --strict-live",
+    "start": "node src/cli.js",
+    "demo:high": "node src/cli.js --agent 1 --mock --pretty",
+    "demo:low": "node src/cli.js --agent 9 --mock --pretty",
+    "demo:unknown": "node src/cli.js --agent 999 --mock --pretty"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "viem": "^2.21.0"
+  }
 }

@@ -1,0 +1,19 @@
+{
+  "tokenId": "999",
+  "path": "mock",
+  "events": {
+    "feedback": [],
+    "registered": [],
+    "uriUpdated": []
+  },
+  "rpc": {
+    "summary": null,
+    "clients": [],
+    "tokenURI": null,
+    "owner": null,
+    "agentWallet": null,
+    "card": null
+  },
+  "indexerError": null,
+  "rpcError": null
+}

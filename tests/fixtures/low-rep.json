@@ -1,0 +1,27 @@
+{
+  "tokenId": "9",
+  "path": "mock",
+  "events": {
+    "feedback": [
+      { "client": "0x1010101010101010101010101010101010101010", "blockTimestamp": 1775995200, "score": 30, "scoreDecimals": 0, "feedbackIndex": 0, "tag1Hash": "0x0000000000000000000000000000000000000000000000000000000000000001" },
+      { "client": "0x1010101010101010101010101010101010101010", "blockTimestamp": 1776081600, "score": 35, "scoreDecimals": 0, "feedbackIndex": 1, "tag1Hash": "0x0000000000000000000000000000000000000000000000000000000000000001" },
+      { "client": "0x1010101010101010101010101010101010101010", "blockTimestamp": 1776168000, "score": 25, "scoreDecimals": 0, "feedbackIndex": 2, "tag1Hash": "0x0000000000000000000000000000000000000000000000000000000000000001" }
+    ],
+    "registered": [
+      { "owner": "0x9090909090909090909090909090909090909090", "agentURI": "ipfs://QmLowRep/card.json", "blockTimestamp": 1775822400 }
+    ],
+    "uriUpdated": []
+  },
+  "rpc": {
+    "summary": { "count": "3", "summaryValue": "30", "decimals": 0 },
+    "clients": ["0x1010101010101010101010101010101010101010"],
+    "tokenURI": "ipfs://QmLowRep/card.json",
+    "owner": "0x9090909090909090909090909090909090909090",
+    "agentWallet": "0x9090909090909090909090909090909090909090",
+    "card": {
+      "name": "NewAgentBot"
+    }
+  },
+  "indexerError": null,
+  "rpcError": null
+}
