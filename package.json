@@ -1,14 +1,6 @@
 {
-  "name": "skill-arena-swap-copilot",
-  "version": "0.1.0",
+  "name": "8004-reputation-skill",
+  "version": "0.0.1",
   "private": true,
-  "type": "module",
-  "description": "Natural-language swap copilot for OKX Build X Skill Arena",
-  "scripts": {
-    "demo": "node src/demo.js",
-    "start": "node src/demo.js"
-  },
-  "dependencies": {
-    "zod": "^3.23.8"
-  }
+  "description": "Concept-only placeholder for OKX Build X Skill Arena submission"
 }

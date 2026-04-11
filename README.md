@@ -1,42 +1,36 @@
-# NL Swap Copilot (Skill Arena Submission)
+# 8004 Agent Reputation Skill (OKX Build X – Skill Arena)
 
-A reusable agent skill for **natural-language token swaps on X Layer** using OnchainOS.
+This project is now reset to a **concept-only state**.
 
-## Track
-Skill Arena (OKX Build X Hackathon)
+## What this project is
+A planned **Skill Arena** submission for the OKX Build X AI Hackathon.
 
-## What this does
-- Takes plain-English swap intent (e.g., "swap 0.005 OKB to USDT on X Layer")
-- Parses amount / token pair / chain from text
-- Fetches quote + route via OnchainOS
-- Enforces configurable safety guards (max slippage, max notional)
-- Produces executable command plan for wallet-assisted swap execution
+## Core idea
+Build a reusable skill that queries the **8004 protocol** to evaluate another agent’s reputation.
 
-## Why this is useful
-Most users can describe what they want, but not exact CLI/API parameters. This skill is an adapter layer between human intent and reliable, auditable swap execution.
+## Hackathon context
+- Event: OKX Build X AI Hackathon
+- Track: Skill Arena
+- Type: reusable agent capability (not a full standalone app)
+- Goal: provide a trust/reputation primitive that other agents can integrate before delegating work, routing funds, or accepting outputs.
 
-## Project status
-- [x] Initial scaffold
-- [x] Intent parser + risk checks
-- [x] Command planner
-- [ ] Live swap execution loop tests
-- [ ] Submission post + demo artifacts
+## Proposed capability (high-level)
+- Input: target agent identifier (address, handle, or protocol-specific ID)
+- Process: query 8004 protocol reputation signals
+- Output: normalized reputation report (score, confidence, signal breakdown, timestamp)
 
-## Quick start
+## Potential use cases
+- Agent-to-agent trust checks before delegation
+- Reputation-aware task routing
+- Risk flags for low-trust or newly created agents
+- Audit-friendly reputation snapshots for decision logs
 
-```bash
-cd skill-arena-swap-copilot
-cp .env.example .env
-npm install
-npm run demo -- "swap 0.002 okb to usdt on xlayer"
-```
+## Deliverables to build next
+- Protocol adapter for 8004 queries
+- Score normalization schema
+- CLI/API interface for other agents
+- Caching + freshness policy
+- Test suite + proof/demo artifacts
 
-## Safety defaults
-- maxSlippageBps: 100 (1%)
-- maxNotionalUsd: 25
-- allowChains: xlayer
-
-## Hackathon proof placeholders
-- Agentic Wallet address: `0x95e9bb55204a71da2d6403c84b855eb3b7afd549`
-- Repo: (to be created)
-- Demo: (to be added)
+## Notes
+Implementation was intentionally removed per request. This repository currently keeps only project-level direction and hackathon framing.
