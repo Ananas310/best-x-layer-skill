@@ -71,6 +71,33 @@ can `import` an ESM function or shell out to `node src/cli.js` can use this
 skill. The output is stable JSON shaped by [`src/core/schema.js`](src/core/schema.js)
 (`schemaVersion: "1.0.0"`).
 
+### Trust policy presets (strict / balanced / growth)
+
+You can convert reputation reports into action-level allow/block decisions:
+
+```js
+import { getReputation, evaluateTrustPolicy } from '8004-reputation-skill';
+
+const report = await getReputation('1', { source: 'auto' });
+const decision = evaluateTrustPolicy(report, {
+  preset: 'balanced',   // 'strict' | 'balanced' | 'growth'
+  risk: 'high',         // 'low' | 'medium' | 'high'
+});
+
+if (decision.allow) {
+  // proceed
+} else if (decision.decision.action === 'sandbox') {
+  // unknown/cold-start path: reduced permissions
+} else {
+  // block + manual review
+}
+```
+
+Preset intent:
+- `strict`: security-first, conservative for high-risk actions
+- `balanced`: default for most production agents
+- `growth`: faster onboarding with controlled risk
+
 ---
 
 ## How it scores

@@ -115,6 +115,7 @@ export async function getReputation(agentInput, {
 export { CONTRACTS, fetchReputationBundle } from './adapters/8004Client.js';
 export { normalize } from './core/normalize.js';
 export { score } from './core/score.js';
+export { evaluateTrustPolicy, TRUST_POLICY_PRESETS } from './core/policy.js';
 export { resolveAgentId, classifyInput } from './core/resolve.js';
 export { ErrorCode } from './core/errors.js';
 export { SCHEMA_VERSION, CHAIN } from './core/schema.js';
