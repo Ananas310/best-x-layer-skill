@@ -1,5 +1,7 @@
 # 8004 Agent Reputation Skill
 
+> Follow our X for updates: https://x.com/TrustXLayer
+
 A reusable, read-only agent capability that queries **ERC-8004** trust
 registries on **X Layer** and returns a normalized reputation report —
 built for the OKX Build X AI Hackathon (Skill Arena track), with
